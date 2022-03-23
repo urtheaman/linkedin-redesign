@@ -59,6 +59,7 @@ const Home: NextPage = () => {
       </header>
 
       <HomePage />
+      <div className="bg-slate-200 h-[6.5rem]" />
     </div>
   );
 };

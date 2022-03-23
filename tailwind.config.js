@@ -9,6 +9,9 @@ module.exports = {
         linkedin: "#0073b1",
         linkedin_dark: "#00679E",
       },
+      screens: {
+        nineHbr: "950px",
+      },
     },
   },
   plugins: [],

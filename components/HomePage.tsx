@@ -5,9 +5,9 @@ import InputElement from "./InputElement";
 import SingleColorButton from "./SingleColorButton";
 const HomePage: NextPage = () => {
   return (
-    <div className="grid grid-cols-8">
-      <div className="col-start-2 col-end-5">
-        <h1 className="text-[#8f5849] text-[3.4rem] font-light">
+    <div className="grid grid-rows-2 grid-cols-none  nineHbr:grid-rows-none nineHbr:grid-cols-8">
+      <div className="nineHbr:col-start-2 nineHbr:col-end-5 z-9 flex flex-col items-center nineHbr:items-start">
+        <h1 className="text-4xl text-[#8f5849] nineHbr:text-5xl font-light my-6 text-center nineHbr:text-left">
           Welcome to your professional community
         </h1>
         <div className="w-[380px]">
@@ -46,7 +46,7 @@ const HomePage: NextPage = () => {
         </div>
       </div>
 
-      <div className="relative col-start-5 col-end-9">
+      <div className="relative md:col-start-5 md:col-end-9 -z-1">
         <Image
           src="/home_illustration.svg"
           layout="fill"
