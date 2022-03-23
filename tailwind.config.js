@@ -4,7 +4,12 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        linkedin: "#0073b1",
+        linkedin_dark: "#00679E",
+      },
+    },
   },
   plugins: [],
 };

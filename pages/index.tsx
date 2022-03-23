@@ -10,6 +10,7 @@ import {
 import BlueButton from "../components/BlueButton";
 import GrayButton from "../components/GrayButton";
 import { NextPage } from "next";
+import HomePage from "../components/HomePage";
 
 const Home: NextPage = () => {
   return (
@@ -19,12 +20,12 @@ const Home: NextPage = () => {
       </Head>
 
       <header className="flex items-center justify-around">
-        <div className="relative w-48 h-32">
+        <div className="relative w-56 h-32 -ml-4">
           <Image
             src="/linkedin.svg"
             alt="linkedin logo"
             layout="fill"
-            objectFit="contain"
+            objectFit="cover"
             className="cursor-pointer"
           />
         </div>
@@ -56,6 +57,8 @@ const Home: NextPage = () => {
           </div>
         </div>
       </header>
+
+      <HomePage />
     </div>
   );
 };
