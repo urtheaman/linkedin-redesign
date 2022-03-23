@@ -9,8 +9,9 @@ import {
 } from "@heroicons/react/outline";
 import BlueButton from "../components/BlueButton";
 import GrayButton from "../components/GrayButton";
+import { NextPage } from "next";
 
-const Home = () => {
+const Home: NextPage = () => {
   return (
     <div>
       <Head>
